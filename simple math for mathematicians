@@ -1,0 +1,33 @@
+#include <iostream>
+#include <math.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+using namespace std;
+
+int cacophony ( int x, int y)
+{
+
+int hypotenusis = (x*x) + (y*y);
+return hypotenusis;	
+	
+}
+
+
+int main() {
+	
+	
+	int a,b,c;
+	 cout<<"Insert size of first cacophony"<<endl;
+	 cin>>a;
+	 
+	 
+	 cout<<"Insert size of other cacophony"<<endl;
+	 cin>>b;
+	 
+	 c=cacophony(a,b);
+	 
+	 cout<<c<<endl;
+	 
+	
+	return 0;
+}
